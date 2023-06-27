@@ -8,3 +8,8 @@
 		@apply font-poppins;
 	}
 }
+@layer components {
+	.text-section-1 {
+		@apply xl:text-3xl lg:text-2xl text-xl !font-medium;
+	}
+}

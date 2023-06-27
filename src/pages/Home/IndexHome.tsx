@@ -1,9 +1,10 @@
-import React, { useEffect, useRef } from "react";
-import { Section } from "./Section";
+import { useEffect } from "react";
 import { Hero } from "./Hero/Hero";
 import { PotensiDesa } from "./Section/PotensiDesa/PotensiDesa";
 import { APBD } from "./Section/APBD/APBD";
 import { TentangKami } from "./Section/TentangKami/TentangKami";
+import { HubungiKami } from "./Section/HubungiKami/HubungiKami";
+import { SistemInformasiDesa } from "./Section/SistemInformasiDesa/SistemInformasiDesa";
 
 export const IndexHome = () => {
 	useEffect(() => {
@@ -14,7 +15,9 @@ export const IndexHome = () => {
 			<Hero />
 			<TentangKami />
 			<PotensiDesa />
+			<SistemInformasiDesa />
 			<APBD />
+			<HubungiKami />
 		</div>
 	);
 };

@@ -1,10 +1,9 @@
 import React from "react";
-import { Section } from "../../Section";
 import { tentangKamiList } from "../../../../data/tentangKamiList";
 import { TentangKamiCard } from "./TentangKamiCard";
 export const TentangKami = () => {
 	return (
-		<Section style="py-14 bg-cyan-950">
+		<section className="py-14 bg-cyan-950">
 			<div className="container mx-auto xl:flex-nowrap flex gap-x-3 flex-wrap">
 				<div className="max-w-md text-cyan-50">
 					<h2 className="text-3xl font-semibold uppercase text-green-400">Desa Sidorejo</h2>
@@ -28,6 +27,6 @@ export const TentangKami = () => {
 					})}
 				</div>
 			</div>
-		</Section>
+		</section>
 	);
 };
