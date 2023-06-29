@@ -9,6 +9,7 @@ import { IndexStatistik } from "./pages/Statistik/IndexStatistik";
 import { IndexHome } from "./pages/Home/IndexHome";
 import { Peta } from "./pages/ProfilDesa/Peta/Peta";
 import { ErrorPage } from "./pages/ErrorPage";
+import { Wilayah } from "./pages/ProfilDesa/Wilayah/Wilayah";
 const router = createBrowserRouter([
 	{
 		path: "/",
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
 				path: "/profil-desa/peta",
 				element: <Peta />,
 			},
+			{ path: "/profil-desa/wilayah", element: <Wilayah /> },
 			{ path: "lembaga", element: <IndexLembaga /> },
 			{ path: "statistik", element: <IndexStatistik /> },
 			{ path: "", element: <IndexHome /> },
