@@ -7,7 +7,7 @@ import { IndexProfilDesa } from "./pages/ProfilDesa/IndexProfilDesa";
 import { IndexLembaga } from "./pages/Lembaga/IndexLembaga";
 import { IndexStatistik } from "./pages/Statistik/IndexStatistik";
 import { IndexHome } from "./pages/Home/IndexHome";
-import { Peta } from "./pages/ProfilDesa/Peta";
+import { Peta } from "./pages/ProfilDesa/Peta/Peta";
 import { ErrorPage } from "./pages/ErrorPage";
 const router = createBrowserRouter([
 	{
