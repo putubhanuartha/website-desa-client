@@ -6,7 +6,7 @@ type SectionTopProps = {
 export const SectionTop: React.FC<SectionTopProps> = ({ children, style }) => {
 	return (
 		<>
-			<div className="h-24"></div>
+			<div className="h-20"></div>
 			<section className={`py-10 min-h-screen flex ${style}`}>
 				<div className="container mx-auto">{children}</div>
 			</section>
