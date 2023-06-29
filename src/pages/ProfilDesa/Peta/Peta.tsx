@@ -11,7 +11,7 @@ export const Peta = () => {
 	const mapRef = useRef(null);
 	return (
 		<SectionTop>
-			<div className="container mx-auto">
+			<div className="mx-auto">
 				<h1 className="text-center text-3xl font-medium mb-3">
 					Peta Desa Sidorejo
 				</h1>
