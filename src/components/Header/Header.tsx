@@ -15,7 +15,7 @@ export const Header = () => {
 		setindexActiveEnter(-1);
 	}
 	return (
-		<div
+		<header
 			id="header"
 			className="fixed bg-[rgba(8,51,68,0.9)] shadow-[0px_5px_10px_4px_rgba(22,101,133,0.4)] z-50 top-0 left-0 right-0 sm:py-1.5 md:py-3 py-1 text-white"
 		>
@@ -75,6 +75,6 @@ export const Header = () => {
 				settopBarActive={settopBarActive}
 				topBarActive={topBarActive}
 			/>
-		</div>
+		</header>
 	);
 };

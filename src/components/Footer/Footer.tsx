@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export const Footer = () => {
-  return (
-    <div className='bg-red-500'>Footer</div>
-  )
-}
+	return <footer>Footer</footer>;
+};
