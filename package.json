@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "framer-motion": "^10.12.17",
+    "git-filter-repo": "^0.0.30",
     "hamburger-react": "^2.5.0",
     "leaflet": "^1.9.4",
     "localforage": "^1.10.0",
