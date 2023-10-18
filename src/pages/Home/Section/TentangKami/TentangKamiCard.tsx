@@ -20,6 +20,7 @@ export const TentangKamiCard: React.FC<TentangKamiCardProps> = ({
 			/>
 			<div>
 				<Link
+					
 					className="font-semibold group-hover:underline underline-offset-4 text-lg"
 					to={urlLink}
 				>

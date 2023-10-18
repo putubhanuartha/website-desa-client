@@ -12,6 +12,7 @@ import { ErrorPage } from "./pages/ErrorPage";
 import { Wilayah } from "./pages/ProfilDesa/Wilayah/Wilayah";
 import { Sejarah } from "./pages/ProfilDesa/Sejarah/Sejarah";
 import { PerangkatDesa } from "./pages/ProfilDesa/PerangkatDesa/PerangkatDesa";
+
 const router = createBrowserRouter([
 	{
 		path: "/",

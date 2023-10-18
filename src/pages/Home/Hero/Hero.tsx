@@ -12,7 +12,7 @@ export const Hero = () => {
 					muted
 					controls={false}
 				>
-					<source src="/video/hero.mp4" />
+					<source src="video.mp4" />
 				</video>
 			</section>
 			<HeroContent />
