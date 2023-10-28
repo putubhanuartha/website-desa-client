@@ -12,6 +12,7 @@ import { ErrorPage } from "./pages/ErrorPage";
 import { Wilayah } from "./pages/ProfilDesa/Wilayah/Wilayah";
 import { Sejarah } from "./pages/ProfilDesa/Sejarah/Sejarah";
 import { PerangkatDesa } from "./pages/ProfilDesa/PerangkatDesa/PerangkatDesa";
+import VisiMisi from "./pages/ProfilDesa/VisiMisi/VisiMisi";
 
 const router = createBrowserRouter([
 	{
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
 			{ path: "/profil-desa/wilayah", element: <Wilayah /> },
 			{ path: "/profil-desa/sejarah", element: <Sejarah /> },
 			{ path: "/profil-desa/perangkat-desa", element: <PerangkatDesa /> },
+			{ path: "/profil-desa/visi-misi", element: <VisiMisi /> },
 			{ path: "lembaga", element: <IndexLembaga /> },
 			{ path: "statistik", element: <IndexStatistik /> },
 			{ path: "", element: <IndexHome /> },

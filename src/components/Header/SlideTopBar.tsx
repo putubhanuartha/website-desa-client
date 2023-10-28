@@ -23,6 +23,7 @@ export const SlideTopBar: React.FC<SlideTopBarPropsType> = ({
 			{navList.map((el, index) => {
 				return (
 					<li
+						key={index}
 						className="relative containerList"
 						onClick={() => {
 							if (index === indexActiveEnter) {
@@ -45,9 +46,9 @@ export const SlideTopBar: React.FC<SlideTopBarPropsType> = ({
 								index === indexActiveEnter ? "max-h-[30rem]" : "max-h-0"
 							} `}
 						>
-							{el.sublist.map((el2) => {
+							{el.sublist.map((el2, index) => {
 								return (
-									<li>
+									<li key={index}>
 										<Link to={`${el.link}${el2.link}`}>{el2.list}</Link>
 									</li>
 								);

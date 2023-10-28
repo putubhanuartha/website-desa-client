@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 export const Sejarah = () => {
 	return (
-		<section className="overflow-hidden relative min-h-screen bg-center bg-cover saturate-150">
+		<section className="relative min-h-screen bg-center bg-cover saturate-150">
 			<img
 				src="/img/sejarah/rice-field.jpg"
 				alt="rice-field"
-				className="absolute z-10 top-0 min-h-screen left-0 right-0 sepia brightness-[0.25] object-cover"
+				className="absolute z-10 top-0 h-full w-full left-0 right-0 sepia brightness-[0.25] object-cover"
 			/>
-			<div className="mx-auto py-10 container justify-between absolute z-40 lg:top-24 md:top-20 top-8 text-white flex flex-col">
+			<div className="mx-auto py-10 relative container justify-between z-40 lg:top-24 md:top-20 top-8 text-white flex flex-col">
 				<motion.h1
 					initial={{ opacity: 0, x: -80 }}
 					animate={{ opacity: 1, x: 0 }}
@@ -22,7 +22,7 @@ export const Sejarah = () => {
 					initial={{ opacity: 0, x: 80 }}
 					animate={{ opacity: 1, x: 0 }}
 					transition={{ duration: 1.3, ease: "easeInOut" }}
-					className="max-w-2xl flex-col flex gap-y-4 lg:mt-10 mt-5  lg:text-base md:text-sm text-xs"
+					className="max-w-2xl flex-col flex  md:gap-y-4 gap-y-2 lg:mt-10 mt-5  lg:text-base md:text-sm text-xs"
 				>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus

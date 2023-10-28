@@ -17,7 +17,7 @@ export const navList: NavListType[] = [
 	},
 	{
 		titleList: "Lembaga Desa",
-		link: "/lembaga",
+		link: "/berita/lembaga",
 		sublist: [
 			{ list: "BPD", link: "/bpd" },
 			{ list: "PKK", link: "/pkk" },
@@ -32,7 +32,6 @@ export const navList: NavListType[] = [
 			{ list: "Data Kelompok Umur", link: "/kelompok-umur" },
 			{ list: "Data Agama", link: "/agama" },
 			{ list: "Data Pekerjaan", link: "/pekerjaan" },
-			{ list: "APBD Desa", link: "/apbd-desa" },
 		],
 	},
 ];

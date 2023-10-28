@@ -14,7 +14,7 @@ export const Wilayah = () => {
 		<SectionTop>
 			<div className="mx-auto">
 				<div className="lg:max-w-2xl max-w-none w-full  mx-auto">
-					<h1 className="text-center text-3xl  font-medium mb-3">
+					<h1 className="text-center md:text-3xl  text-2xl font-medium mb-3">
 						Wilayah Desa Sidorejo
 					</h1>
 					<img
@@ -30,7 +30,7 @@ export const Wilayah = () => {
 					</p>
 					<div
 						ref={ref}
-						className="flex my-10 text-cyan-800 font-medium text-4xl xl:justify-between justify-evenly flex-col gap-y-5 xl:gap-y-0 md:flex-row items-center text-center"
+						className="flex my-10 text-cyan-800 font-medium lg:text-4xl sm:text-3xl text-2xl xl:justify-between justify-evenly flex-col gap-y-5 xl:gap-y-0 md:flex-row items-center text-center"
 					>
 						<div>
 							{isInView ? (
