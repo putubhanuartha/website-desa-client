@@ -6,7 +6,7 @@ import { ListCardAPBD } from "./ListCardAPBD";
 import { APBDDesaList } from "../../../../data/APBDdesaList";
 export const APBD = () => {
 	const ref = useRef(null);
-	const isInView = useInView(ref, { once: true });
+	const isInView = useInView(ref, { once: false });
 	return (
 		<section
 			ref={ref}

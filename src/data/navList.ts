@@ -6,22 +6,22 @@ export type NavListType = {
 export const navList: NavListType[] = [
 	{
 		titleList: "Profil Desa",
-		link: "/profil-desa",
+		link: "",
 		sublist: [
-			{ list: "Wilayah Desa", link: "/wilayah" },
-			{ list: "Peta Desa", link: "/peta" },
-			{ list: "Sejarah Desa", link: "/sejarah" },
-			{ list: "Visi Misi", link: "/visi-misi" },
-			{ list: "Perangkat Desa", link: "/perangkat-desa" },
+			{ list: "Wilayah Desa", link: "/profil-desa/wilayah" },
+			{ list: "Peta Desa", link: "/profil-desa/peta" },
+			{ list: "Sejarah Desa", link: "/profil-desa/sejarah" },
+			{ list: "Visi Misi", link: "profil-desa/visi-misi" },
+			{ list: "Perangkat Desa", link: "/profil-desa/perangkat-desa" },
 		],
 	},
 	{
 		titleList: "Lembaga Desa",
-		link: "/berita/lembaga",
+		link: "",
 		sublist: [
-			{ list: "BPD", link: "/bpd" },
-			{ list: "PKK", link: "/pkk" },
-			{ list: "BUMDes", link: "/bumdes" },
+			{ list: "BPD", link: "/lembaga/bpd" },
+			{ list: "PKK", link: "/lembaga/pkk" },
+			{ list: "BUMDes", link: "/lembaga/bumdes" },
 		],
 	},
 	{
@@ -29,7 +29,6 @@ export const navList: NavListType[] = [
 		link: "/statistik",
 		sublist: [
 			{ list: "Data Jenis Kelamin", link: "/jenis-kelamin" },
-			{ list: "Data Kelompok Umur", link: "/kelompok-umur" },
 			{ list: "Data Agama", link: "/agama" },
 			{ list: "Data Pekerjaan", link: "/pekerjaan" },
 		],

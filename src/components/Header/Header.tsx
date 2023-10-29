@@ -44,7 +44,7 @@ export const Header = () => {
 											handleMouseEnter(e, index);
 										}}
 									>
-										<Link to={el.link}>{el.titleList}</Link>
+										<p>{el.titleList}</p>
 										<div className="absolute h-2 w-full"></div>
 										<SubList
 											link={el.link}

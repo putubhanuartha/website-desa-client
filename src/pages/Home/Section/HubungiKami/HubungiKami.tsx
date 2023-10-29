@@ -22,9 +22,9 @@ export const HubungiKami = () => {
 		<section
 			ref={ref}
 			id="hubungi_kami"
-			className="py-10 bg-cyan-800 text-white"
+			className="py-10 text-white bg-cyan-800"
 		>
-			<div className="mx-auto container">
+			<div className="mx-auto container ">
 				<h2 className="text-section-1 font-semibold text-center">
 					Hubungi Kami
 				</h2>

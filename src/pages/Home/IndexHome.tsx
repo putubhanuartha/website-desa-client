@@ -14,9 +14,9 @@ export const IndexHome = () => {
 		<div id="home">
 			<Hero />
 			<TentangKami />
-			<PotensiDesa />
 			<SistemInformasiDesa />
-			<APBD />
+			<PotensiDesa />
+
 			<HubungiKami />
 		</div>
 	);
