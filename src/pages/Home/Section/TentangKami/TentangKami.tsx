@@ -36,7 +36,7 @@ export const TentangKami = () => {
 		<motion.section
 			initial="offscreen"
 			whileInView="onscreen"
-			viewport={{ once: true, amount: 0.4 }}
+			viewport={{ once: true, amount: 0.2 }}
 			className="py-14 bg-cyan-950"
 		>
 			<div className="container mx-auto xl:flex-nowrap flex gap-x-3 flex-wrap">

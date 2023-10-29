@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { NewsListStarter } from "./NewsListStarter";
 export const HeroContent = () => {
 	return (
-		<div className="container text-white mx-auto flex z-40 justify-between flex-wrap absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%]">
+		<div className="container mt-9 text-white mx-auto flex z-40 justify-between flex-wrap absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%]">
 			<div className="max-w-md">
 				<h1 className="xl:text-5xl lg:text-4xl text-3xl font-semibold xl:leading-[4rem] lg:leading-[3rem] leading-9">
 					<TypeAnimation
@@ -13,7 +13,7 @@ export const HeroContent = () => {
 					/>
 				</h1>
 				<motion.p
-					className="lg:text-2xl md:text-xl text-lg xl:leading-[4rem] lg:leading-[3rem] leading-9"
+					className="lg:text-2xl md:text-xl text-lg xl:leading-[4rem] lg:leading-[3rem] leading-5 sm:leading-9"
 					initial={{ opacity: 0, x: -40 }}
 					animate={{ opacity: 1, x: 0 }}
 					transition={{ duration: 0.7, delay: 1.3, ease: "easeInOut" }}

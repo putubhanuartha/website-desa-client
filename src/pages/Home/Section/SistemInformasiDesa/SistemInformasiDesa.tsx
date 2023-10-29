@@ -9,10 +9,10 @@ export const SistemInformasiDesa = () => {
 						<img
 							src="/img/sid/sid.png"
 							alt="sid-img"
-							className="w-64 absolute z-40 top-0 left-0"
+							className="sm:w-64 w-40 absolute z-40 top-0 left-0"
 						/>
 						<svg
-                            className="scale-150 w-64"
+                            className="scale-150 sm:w-64 w-40"
 							version="1.1"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 500 500"

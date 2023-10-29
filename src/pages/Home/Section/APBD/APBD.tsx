@@ -1,5 +1,3 @@
-import React from "react";
-import { Bar } from "./Bar";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { ListCardAPBD } from "./ListCardAPBD";

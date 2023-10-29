@@ -21,7 +21,7 @@ export const CardPotensi: React.FC<CardPotensiProps> = ({
 			<img
 				src={imgLink}
 				alt="img-logo"
-				className="w-40 object-cover block mx-auto rounded-md"
+				className="sm:w-40 w-28 object-cover block mx-auto rounded-md"
 			/>
 			<div className="p-5 flex flex-col justify-between">
 				<p className="text-xl font-semibold">{title}</p>
